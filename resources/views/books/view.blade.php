@@ -12,7 +12,7 @@
         <th scope="row">{{$book->id}}</th>
         <th scope="col">TITLE</th>
         <th scope="col">AUTHOR</th>
-        <th scope="col">GENRE</th>
+        <th scope="col">TYPE</th>
         <th scope="col">DESCRIPTION</th>
         <th scope="col">YEAR</th>
       </tr>

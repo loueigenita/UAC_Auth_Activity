@@ -20,4 +20,9 @@ class Book extends Model
         
        return auth()->user()->role=='editor' || auth()->user()->id==$book->user_id;
     }
+    public function isDeleteable(){
+        $book = request()->route('book');
+        
+       return auth()->user()->role=='editor' || auth()->user()->id==$book->user_id;
+    }
 }

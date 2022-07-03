@@ -6,7 +6,7 @@
  <div class="col-md-6 offset-md-3">
  <h1> EDIT BOOKS</h1>
     <hr>
-<div class="card mt-5 border-dark">
+<div class="card mt-5 bg-primary">
  <div class="card-body">
 
     {!! Form::model($book, ['url' => '/books/' . $book->id, 'method'=>'put']) !!}
@@ -20,7 +20,7 @@
         {!! Form::text("authors_name", null, ['class'=>'form-control']) !!}
         </div>
         <div class="mb-2">
-        {!! Form::label("genre", "Genre",) !!}
+        {!! Form::label("genre", "Type",) !!}
         {!! Form::text("genre", null, ['class'=>'form-control']) !!}
         </div>
         <div class="mb-2">
@@ -33,7 +33,7 @@
         </div>
         
     <div class="mb-2 d-flex justify-content-end">
-        <button class=" btn btn-success" type="submit" >
+        <button class=" btn btn-warning" type="submit" >
             Update Info
         </button>
         

@@ -5,7 +5,7 @@
     {{$book->created_at->format('F d, Y g:i A')}}
 </div>
 
-<table class="table table-bordered border-dark">
+<table class="table table-bordered bg-primary">
   <thead>
     <tr>
       <th scope="row">{{$book->id}}</th>

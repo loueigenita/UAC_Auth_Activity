@@ -28,7 +28,7 @@
                       <th scope = "row"> Year :</th><td>{{$book->year_published}}</td>
                     </tr>
                     <tr>
-                      <th scope = "row"> GENRE :</th><td>{{$book->genre}}</td>
+                      <th scope = "row"> Type :</th><td>{{$book->genre}}</td>
                     </tr>
                     </tr>
               </table>

@@ -39,7 +39,7 @@ Route::group(['middleware'=>'auth'], function(){
   
     Route::get('/books/recent',[BookController::class, 'recentBook']);
    
-    Route::get('/books/open/{book}',[BookController::class, 'open']);
+    Route::get('/books/open/{book}',[BookController::class, 'open'])->middleware('delete');
     Route::get('/books/list/{book}',[BookController::class, 'list']);
     Route::get('/books/delete/{book}',[BookController::class, 'delete']);
 

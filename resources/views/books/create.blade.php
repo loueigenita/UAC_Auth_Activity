@@ -22,7 +22,7 @@
     {!! Form::text("authors_name", null, ['class'=>'form-control']) !!}
     </div>
     <div class="mb-2">
-    {!! Form::label("genre", "Genre",) !!}
+    {!! Form::label("genre", "Type",) !!}
     {!! Form::text("genre", null, ['class'=>'form-control']) !!}
     </div>
     <div class="mb-2">
