@@ -18,9 +18,9 @@ $('#verify_code').modal('show');
 
 <div id="verify_code" class="modal custom-modal fade"  role="dialog">
 <div class="modal-dialog">
-<div class="modal-content text-dark">
+<div class="modal-content text-dark text-center">
   <div class="modal-header">
-    <h3 class="modal-title">{{session()->get('info') }}</h3>
+    <h3 class="modal-title text-center">{{session()->get('info') }}</h3>
   </div><!-- end modal-header -->
   <div class="modal-body d-flex justify-content-end">
   <button type="button" class="btn btn-sm btn-success" data-bs-dismiss="modal">Okay</button>
@@ -33,7 +33,7 @@ $('#verify_code').modal('show');
 <div class="modal-dialog">
 <div class="modal-content text-danger">
   <div class="modal-header">
-    <h3 class="modal-title">{{session()->get('Error') }}</h3>
+    <h3 class="modal-title text-center">{{session()->get('Error') }}</h3>
   </div><!-- end modal-header -->
   <div class="modal-body d-flex justify-content-end">
   <button type="button" class="btn btn-sm btn-success" data-bs-dismiss="modal">Okay</button>

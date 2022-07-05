@@ -35,7 +35,7 @@ public function store(Request $request){
         'description' => $request->description,
         'year_published' => $request->year_published,
     ]);
-    return redirect('/books/'. $book->id) ->with('Info', 'New Post Created');       
+    return redirect('/books/'. $book->id)->with('info', 'New Book Created.');       
 }
 public function show(Book $book){
     return view('books.view', ['book'=>$book]);
@@ -53,7 +53,7 @@ public function update(Book $book, Request $request){
     ]);
     $book->update($request->all());
 
-    return redirect('/books/' . $book->id);
+    return redirect('/books/' . $book->id)->with('info', 'Update Successful');
 }
 public function recentBook(){
 
@@ -72,7 +72,7 @@ public function delete($id){
     $book = Book::findOrFail($id);
     $book->delete();
 
-    return redirect('/books/book');
+    return redirect('/books/book')->with('info', 'Delete Successful');
     
 } 
 public function list(Book $book){

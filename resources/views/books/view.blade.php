@@ -33,5 +33,5 @@
   <a href="{{url('/books/edit/' . $book->id)}}" class="btn btn-sm btn-dark" style="margin: 0.5%"> Edit </a>
   <a href="{{url('/books/open/' . $book->id)}}" class="btn btn-sm btn-danger" style="margin: 0.5%"> Delete </a>
   <a href="{{'/books/recent'}}" class="btn btn-sm btn-primary" style="margin: 0.5%">Back</a>
-  
+
 @endsection
