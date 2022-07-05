@@ -4,7 +4,7 @@
 
 <div class="row">
  <div class="col-md-6 offset-md-3">
- <h1> EDIT BOOKS</h1>
+ <h1 class="text-center"> EDIT BOOK</h1>
     <hr>
 <div class="card mt-5 bg-primary">
  <div class="card-body">
@@ -33,8 +33,8 @@
         </div>
         
     <div class="mb-2 d-flex justify-content-end">
-        <button class=" btn btn-warning" type="submit" >
-            Update Info
+        <button class=" btn btn-sm btn-warning" type="submit" >
+            Update
         </button>
         
     </div>
@@ -43,6 +43,12 @@
         </div>
     </div>
 </div>
+<style>
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+    }
+</style>
 
 
 

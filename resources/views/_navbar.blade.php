@@ -38,7 +38,7 @@
      display: block;
      width: 0px;
      height: 2px;
-     background: #fec400;
+     background: #ff0000;
      transition: 0.4s
  }
 
@@ -52,6 +52,7 @@
  .navbar-dark .navbar-nav .show>.nav-link,
  .navbar-dark .navbar-nav .nav-link:focus,
  .navbar-dark .navbar-nav .nav-link:hover {
-     color: #fec400
+     color: #0400fe
  }
+ 
 </style>

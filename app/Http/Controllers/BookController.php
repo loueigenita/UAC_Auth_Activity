@@ -78,6 +78,5 @@ public function delete($id){
 public function list(Book $book){
 
 return view('books.view', ['book'=>$book]);
-
 } 
 }

@@ -24,7 +24,7 @@
 </body>
 <style>
     body {
-    background-image: url('https://books2ebooks.eu/sites/default/files/u11/eod_banner.jpg');
+    background-image: url('https://www.nypl.org/sites/default/files/8435321969_c1eea0631a_o.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

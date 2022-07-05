@@ -3,11 +3,10 @@
 @section('content')
 
 <div class="row">
-    
  <div class="col-md-6 offset-md-3">
- <h1> ADD BOOKS </h1>
+ <h1 class="text-center"> ADD BOOKS </h1>
     <hr>
-<div class="card mt-5 border-dark bg-primary">
+<div class="card mt-5 bg-primary">
  <div class="card-body">
     
     {!! Form::open(['url' => '/books', 'method'=>'post']) !!}
@@ -35,7 +34,7 @@
     </div>
 
     <div class="mb-2 d-flex justify-content-center">
-        <button class="btn btn btn-warning" type=" submit">
+        <button class="btn btn-sm btn-warning" type=" submit">
             Save
         </button>
     </div>
@@ -46,5 +45,12 @@
       </div>
   </div>
 </div>
+<style>
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+    }
+</style>
+
 
 @endsection

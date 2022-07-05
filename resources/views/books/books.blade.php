@@ -11,14 +11,14 @@
 <h1>MY BOOKS</h1>
 <hr>
 
-<div class="d-flex justify-content-between">
+<div class="row row-cols-1 row row-cols-md-2 g-1 d-flex justify-content-between">
   @foreach($bookList as $book)
 
   <div class="card align-self-stretched border-warning mb-3 " style="width: 31%">
     <div class="card-header bg-dark text-white text-center">Book Information</div>
        <div class="card-body bg-primary">
             <div class="card-title">
-            <table class="table table-bordered bg-light">
+            <table class="table table-bordered bg-secondary">
                 <tr>
                     <th scope = "row"> Title :</th><td>{{$book->title}}</td>
                     </tr>
@@ -44,6 +44,12 @@
   </div>
   @endforeach
 </div>
+<style>
+  h1{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 4vw;
+  }
+</style>
 
 
 

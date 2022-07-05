@@ -28,6 +28,7 @@ Route::post('/login', [AuthController::class, 'login']);
 
 Route::group(['middleware'=>'auth'], function(){
     Route::get('/books/create',[BookController::class, 'create']);
+    Route::get('/users',[AuthController::class, 'users']);
     
     Route::post('/books',[BookController::class, 'store']);
 
